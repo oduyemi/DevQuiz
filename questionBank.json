@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "question": "What is the output of the following JavaScript code?\nconsole.log(typeof null);",
+        "options": ["object", "null", "undefined", "number"],
+        "correct": 0
+    },
+    {
+        "id": 2,
+        "question": "Which HTML element is used to define the title of a document?",
+        "options": ["<meta>", "<title>", "<head>", "<header>"],
+        "correct": 1
+    },
+    {
+        "id": 3,
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": ["font-color", "background-color", "color", "text-color"],
+        "correct": 2
+    },
+    {
+        "id": 4,
+        "question": "In Java, which of the following is the default value of a local variable?",
+        "options": ["null", "0", "Depends on the data type", "No default value for local variables"],
+        "correct": 3
+    },
+    {
+        "id": 5,
+        "question": "Which of the following is not a valid HTTP method?",
+        "options": ["GET", "POST", "DELETE", "FIND"],
+        "correct": 3
+    },
+    {
+        "id": 6,
+        "question": "What does the 'use strict' directive do in JavaScript?",
+        "options": ["Enforces stricter parsing and error handling in your code", "Automatically optimizes the code for faster execution", "Allows the use of undeclared variables", "Enables new ES6 features"],
+        "correct": 0
+    },
+    {
+        "id": 7,
+        "question": "What is the correct syntax to connect to a MongoDB database in Node.js?",
+        "options": ["MongoClient.connect('mongodb://localhost:27017/mydatabase')", "Mongo.connect('mongodb://localhost:27017/mydatabase')", "MongoDB.connect('mongodb://localhost:27017/mydatabase')", "connectToMongo('mongodb://localhost:27017/mydatabase')"],
+        "correct": 0
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is not a valid state in the React component lifecycle?",
+        "options": ["componentDidMount", "componentWillUpdate", "componentWillReceiveProps", "componentWillRender"],
+        "correct": 3
+    },
+    {
+        "id": 9,
+        "question": "Which SQL statement is used to update data in a database?",
+        "options": ["MODIFY", "UPDATE", "SET", "SAVE"],
+        "correct": 1
+    },
+    {
+        "id": 10,
+        "question": "Which is a correct syntax to create a JavaScript class?",
+        "options": ["class MyClass { constructor() {} }", "class = MyClass { constructor() {} }", "function class MyClass { constructor() {} }", "createClass MyClass { constructor() {} }"],
+        "correct": 0
+    },
+    {
+        "id": 11,
+        "question": "What is the default port for HTTP?",
+        "options": ["80", "443", "8080", "21"],
+        "correct": 0
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is not a CSS layout model?",
+        "options": ["Flexbox", "Grid", "Box", "Inline-Block"],
+        "correct": 2
+    },
+    {
+        "id": 13,
+        "question": "Which method is used to add an element to the end of an array in JavaScript?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "correct": 0
+    },
+    {
+        "id": 14,
+        "question": "Which of the following is a frontend framework?",
+        "options": ["Angular", "Django", "Spring", "Laravel"],
+        "correct": 0
+    },
+    {
+        "id": 15,
+        "question": "What does SQL stand for?",
+        "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "Sequential Query Language"],
+        "correct": 0
+    },
+    {
+        "id": 16,
+        "question": "Which HTTP status code indicates that the requested resource was not found?",
+        "options": ["200", "301", "404", "500"],
+        "correct": 2
+    },
+    {
+        "id": 17,
+        "question": "In Python, which keyword is used to start a function?",
+        "options": ["function", "def", "fun", "lambda"],
+        "correct": 1
+    },
+    {
+        "id": 18,
+        "question": "Which HTML attribute is used to specify a unique identifier for an element?",
+        "options": ["class", "id", "name", "key"],
+        "correct": 1
+    },
+    {
+        "id": 19,
+        "question": "Which of the following is not a valid JavaScript data type?",
+        "options": ["string", "number", "character", "boolean"],
+        "correct": 2
+    },
+    {
+        "id": 20,
+        "question": "Which of the following is a NoSQL database?",
+        "options": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"],
+        "correct": 1
+    },
+    {
+        "id": 21,
+        "question": "In CSS, which property is used to change the background color?",
+        "options": ["background-color", "color", "bgcolor", "background"],
+        "correct": 0
+    },
+    {
+        "id": 22,
+        "question": "Which of the following is not a valid HTTP status code?",
+        "options": ["201", "403", "502", "600"],
+        "correct": 3
+    },
+    {
+        "id": 23,
+        "question": "In React, which hook is used to handle side effects?",
+        "options": ["useState", "useEffect", "useContext", "useReducer"],
+        "correct": 1
+    },
+    {
+        "id": 24,
+        "question": "What is the default value of an uninitialized variable in JavaScript?",
+        "options": ["null", "undefined", "0", "NaN"],
+        "correct": 1
+    },
+    {
+        "id": 25,
+        "question": "Which command is used to create a new Git repository?",
+        "options": ["git clone", "git init", "git create", "git new"],
+        "correct": 1
+    },
+    {
+        "id": 26,
+        "question": "What is the purpose of the HTML <canvas> element?",
+        "options": ["To draw graphics", "To display images", "To create forms", "To embed videos"],
+        "correct": 0
+    },
+    {
+        "id": 27,
+        "question": "Which JavaScript framework is maintained by Facebook?",
+        "options": ["Angular", "Vue", "React", "Ember"],
+        "correct": 2
+    },
+    {
+        "id": 28,
+        "question": "What does the acronym CSS stand for?",
+        "options": ["Cascading Style Sheets", "Central Style Sheets", "Creative Style Sheets", "Cascading System Sheets"],
+        "correct": 0
+    },
+    {
+        "id": 29,
+        "question": "Which of the following is a backend programming language?",
+        "options": ["JavaScript", "HTML", "CSS", "Python"],
+        "correct": 3
+    },
+    {
+        "id": 30,
+        "question": "Which HTML element is used to create a line break?",
+        "options": ["<br>", "<break>", "<lb>", "<newline>"],
+        "correct": 0
+    },
+    {
+        "id": 31,
+        "question": "In Java, which keyword is used to inherit a class?",
+        "options": ["extends", "implements", "inherits", "derives"],
+        "correct": 0
+    },
+    {
+        "id": 32,
+        "question": "Which of the following is a relational database management system?",
+        "options": ["MongoDB", "Cassandra", "MySQL", "Neo4j"],
+        "correct": 2
+    },
+    {
+        "id": 33,
+        "question": "Which HTTP method is used to request data from a server?",
+        "options": ["GET", "POST", "DELETE", "PUT"],
+        "correct": 0
+    },
+    {
+        "id": 34,
+        "question": "In CSS, which property controls the space between lines of text?",
+        "options": ["letter-spacing", "line-height", "text-spacing", "text-indent"],
+        "correct": 1
+    },
+    {
+        "id": 35,
+        "question": "Which of the following is used to define a variable in JavaScript?",
+        "options": ["var", "let", "const", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 36,
+        "question": "Which SQL statement is used to create a new table?",
+        "options": ["INSERT INTO", "ALTER TABLE", "CREATE TABLE", "DROP TABLE"],
+        "correct": 2
+    },
+    {
+        "id": 37,
+        "question": "What does the 'this' keyword refer to in a JavaScript object method?",
+        "options": ["The global object", "The current object", "The parent object", "Undefined"],
+        "correct": 1
+    },
+    {
+        "id": 38,
+        "question": "Which of the following is a package manager for JavaScript?",
+        "options": ["npm", "pip", "composer", "gem"],
+        "correct": 0
+    },
+    {
+        "id": 39,
+        "question": "Which of the following is a JavaScript runtime built on Chrome's V8 engine?",
+        "options": ["Angular", "React", "Node.js", "Vue.js"],
+        "correct": 2
+    },
+    {
+        "id": 40,
+        "question": "Which CSS property is used to make text bold?",
+        "options": ["font-weight", "font-style", "text-bold", "font-bold"],
+        "correct": 0
+    },
+    {
+        "id": 41,
+        "question": "What does DOM stand for in web development?",
+        "options": ["Document Object Model", "Data Object Model", "Document Order Model", "Data Order Model"],
+        "correct": 0
+    },
+    {
+        "id": 42,
+        "question": "Which method is used to stop an interval timer in JavaScript?",
+        "options": ["clearInterval()", "clearTimeout()", "stopInterval()", "stopTimer()"],
+        "correct": 0
+    },
+    {
+        "id": 43,
+        "question": "Which of the following is a popular NoSQL database?",
+        "options": ["MySQL", "PostgreSQL", "SQLite", "Cassandra"],
+        "correct": 3
+    },
+    {
+        "id": 44,
+        "question": "In Python, which function is used to get user input?",
+        "options": ["input()", "get()", "scanf()", "prompt()"],
+        "correct": 0
+    },
+    {
+        "id": 45,
+        "question": "Which of the following is a frontend technology?",
+        "options": ["React", "Node.js", "Django", "Flask"],
+        "correct": 0
+    },
+    {
+        "id": 46,
+        "question": "What is the purpose of the 'box-sizing' property in CSS?",
+        "options": ["To include padding and border in an element's total width and height", "To set the size of the content box only", "To adjust the margin of the box", "To set the size of the border"],
+        "correct": 0
+    },
+    {
+        "id": 47,
+        "question": "Which HTTP method is used to submit data to be processed to a server?",
+        "options": ["GET", "POST", "DELETE", "PUT"],
+        "correct": 1
+    },
+    {
+        "id": 48,
+        "question": "In JavaScript, which method is used to join two or more arrays?",
+        "options": ["concat()", "join()", "merge()", "combine()"],
+        "correct": 0
+    },
+    {
+        "id": 49,
+        "question": "Which of the following is not a version control system?",
+        "options": ["Git", "SVN", "Mercurial", "Docker"],
+        "correct": 3
+    },
+    {
+        "id": 50,
+        "question": "In Java, which method is used to start a thread?",
+        "options": ["run()", "start()", "init()", "begin()"],
+        "correct": 1
+    },
+    {
+        "id": 51,
+        "question": "What is the purpose of the HTML <meta> tag?",
+        "options": ["To store metadata about the document", "To create a section in the document", "To include a footer in the document", "To link external resources"],
+        "correct": 0
+    },
+    {
+        "id": 52,
+        "question": "Which of the following is a key-value data structure?",
+        "options": ["Array", "Linked List", "Dictionary", "Queue"],
+        "correct": 2
+    },
+    {
+        "id": 53,
+        "question": "In CSS, which property is used to change the font size of an element?",
+        "options": ["font-style", "font-size", "text-size", "text-style"],
+        "correct": 1
+    },
+    {
+        "id": 54,
+        "question": "Which SQL keyword is used to retrieve unique values?",
+        "options": ["DISTINCT", "UNIQUE", "SELECT DISTINCT", "SELECT UNIQUE"],
+        "correct": 0
+    },
+    {
+        "id": 55,
+        "question": "Which of the following is a backend framework?",
+        "options": ["Vue.js", "Flask", "Bootstrap", "Tailwind CSS"],
+        "correct": 1
+    },
+    {
+        "id": 56,
+        "question": "Which HTML attribute is used to specify an inline CSS style for an element?",
+        "options": ["style", "css", "class", "id"],
+        "correct": 0
+    },
+    {
+        "id": 57,
+        "question": "Which HTTP status code indicates a successful request?",
+        "options": ["200", "404", "500", "403"],
+        "correct": 0
+    },
+    {
+        "id": 58,
+        "question": "What is the purpose of the 'yield' keyword in Python?",
+        "options": ["To return a value from a function", "To pause and resume a generator function", "To end a loop", "To define a generator function"],
+        "correct": 1
+    },
+    {
+        "id": 59,
+        "question": "Which JavaScript method is used to find the length of a string?",
+        "options": ["length()", "size()", "length", "getLength()"],
+        "correct": 2
+    },
+    {
+        "id": 60,
+        "question": "Which of the following is a JavaScript framework?",
+        "options": ["Angular", "Django", "Laravel", "Spring"],
+        "correct": 0
+    },
+    {
+        "id": 61,
+        "question": "Which of the following is a valid JavaScript data type?",
+        "options": ["number", "float", "double", "integer"],
+        "correct": 0
+    },
+    {
+        "id": 62,
+        "question": "Which of the following is not a JavaScript data type?",
+        "options": ["Number", "String", "Tuple", "Boolean"],
+        "correct": 2
+    },
+    {
+        "id": 63,
+        "question": "Which HTML element is used to create an unordered list?",
+        "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+        "correct": 0
+    },
+    {
+        "id": 64,
+        "question": "In JavaScript, which method is used to parse a string to an integer?",
+        "options": ["parseInt()", "parseFloat()", "toInteger()", "intParse()"],
+        "correct": 0
+    },
+    {
+        "id": 65,
+        "question": "Which SQL clause is used to filter the result set?",
+        "options": ["WHERE", "FILTER", "GROUP BY", "ORDER BY"],
+        "correct": 0
+    },
+    {
+        "id": 66,
+        "question": "In Python, what does the 'def' keyword do?",
+        "options": ["Defines a function", "Declares a variable", "Defines a class", "Deletes a variable"],
+        "correct": 0
+    },
+    {
+        "id": 67,
+        "question": "Which of the following is not a valid value for the 'display' property in CSS?",
+        "options": ["block", "inline", "flex", "visible"],
+        "correct": 3
+    },
+    {
+        "id": 68,
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "options": ["pop()", "push()", "shift()", "unshift()"],
+        "correct": 0
+    },
+    {
+        "id": 69,
+        "question": "Which SQL statement is used to delete data from a database?",
+        "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+        "correct": 0
+    },
+    {
+        "id": 70,
+        "question": "Which of the following is a frontend technology?",
+        "options": ["React", "Node.js", "Django", "Flask"],
+        "correct": 0
+    },
+    {
+        "id": 71,
+        "question": "What does API stand for?",
+        "options": ["Application Programming Interface", "Application Programming Integration", "Application Programming Interaction", "Application Process Interface"],
+        "correct": 0
+    },
+    {
+        "id": 72,
+        "question": "In JavaScript, which method is used to convert a JSON string into an object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "stringifyJSON()"],
+        "correct": 0
+    },
+    {
+        "id": 73,
+        "question": "Which of the following is a valid CSS selector?",
+        "options": [".className", "#idName", "elementName", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 74,
+        "question": "Which method is used to remove an element from the beginning of an array in JavaScript?",
+        "options": ["pop()", "push()", "shift()", "unshift()"],
+        "correct": 2
+    },
+    {
+        "id": 75,
+        "question": "Which of the following is a valid CSS pseudo-class?",
+        "options": [":hover", ":class", ":id", ":element"],
+        "correct": 0
+    },
+    {
+        "id": 76,
+        "question": "Which of the following is not a valid value for the 'position' property in CSS?",
+        "options": ["static", "fixed", "relative", "float"],
+        "correct": 3
+    },
+    {
+        "id": 77,
+        "question": "Which of the following is not a primitive data type in JavaScript?",
+        "options": ["Boolean", "String", "Object", "Number"],
+        "correct": 2
+    },
+    {
+        "id": 78,
+        "question": "Which SQL statement is used to create a new database?",
+        "options": ["INSERT DATABASE", "CREATE DATABASE", "NEW DATABASE", "MAKE DATABASE"],
+        "correct": 1
+    },
+    {
+        "id": 79,
+        "question": "Which of the following is a valid value for the 'flex-direction' property in CSS?",
+        "options": ["row", "column", "row-reverse", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 80,
+        "question": "In Python, which keyword is used to create a class?",
+        "options": ["class", "def", "new", "create"],
+        "correct": 0
+    },
+    {
+        "id": 81,
+        "question": "Which of the following is not a valid HTTP status code?",
+        "options": ["301", "403", "501", "605"],
+        "correct": 3
+    },
+    {
+        "id": 82,
+        "question": "Which of the following is a frontend framework?",
+        "options": ["Vue.js", "Express.js", "Django", "Flask"],
+        "correct": 0
+    },
+    {
+        "id": 83,
+        "question": "Which of the following is used to define an anonymous function in JavaScript?",
+        "options": ["function", "lambda", "arrow function", "callback"],
+        "correct": 2
+    },
+    {
+        "id": 84,
+        "question": "Which SQL clause is used to sort the result set?",
+        "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+        "correct": 1
+    },
+    {
+        "id": 85,
+        "question": "Which HTML element is used to display a scalar measurement within a known range?",
+        "options": ["<meter>", "<progress>", "<range>", "<input>"],
+        "correct": 0
+    },
+    {
+        "id": 86,
+        "question": "Which of the following is a valid JavaScript function expression?",
+        "options": ["function() {}", "function myFunc() {}", "const myFunc = function() {}", "myFunc = function() {}"],
+        "correct": 2
+    },
+    {
+        "id": 87,
+        "question": "In Python, what is the correct file extension for Python files?",
+        "options": [".py", ".python", ".pyt", ".pyth"],
+        "correct": 0
+    },
+    {
+        "id": 88,
+        "question": "Which CSS property is used to change the text alignment?",
+        "options": ["align-text", "text-align", "alignment", "text-align-center"],
+        "correct": 1
+    },
+    {
+        "id": 89,
+        "question": "Which HTTP method is used to update a resource on the server?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "correct": 2
+    },
+    {
+        "id": 90,
+        "question": "Which of the following is a valid JavaScript loop?",
+        "options": ["for loop", "while loop", "do-while loop", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 91,
+        "question": "Which of the following is a valid CSS length unit?",
+        "options": ["px", "em", "%", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 92,
+        "question": "Which of the following is used to define a constant in JavaScript?",
+        "options": ["var", "let", "const", "constant"],
+        "correct": 2
+    },
+    {
+        "id": 93,
+        "question": "Which SQL clause is used to group rows that have the same values in specified columns?",
+        "options": ["GROUP BY", "ORDER BY", "SORT BY", "FILTER BY"],
+        "correct": 0
+    },
+    {
+        "id": 94,
+        "question": "Which of the following is a valid CSS color value?",
+        "options": ["#ff0000", "rgb(255,0,0)", "red", "All of the above"],
+        "correct": 3
+    },
+    {
+        "id": 95,
+        "question": "Which of the following is not a valid JavaScript array method?",
+        "options": ["map()", "reduce()", "filter()", "findIndex()"],
+        "correct": 3
+    },
+    {
+        "id": 96,
+        "question": "In Python, which keyword is used to define a block of code that will execute regardless of an exception being thrown?",
+        "options": ["except", "finally", "else", "try"],
+        "correct": 1
+    },
+    {
+        "id": 97,
+        "question": "Which of the following is a CSS framework?",
+        "options": ["Bootstrap", "jQuery", "React", "Vue"],
+        "correct": 0
+    },
+    {
+        "id": 98,
+        "question": "Which of the following is a JavaScript module bundler?",
+        "options": ["Webpack", "npm", "Yarn", "Git"],
+        "correct": 0
+    },
+    {
+        "id": 99,
+        "question": "In HTML, which attribute is used to specify that an input field must be filled out before submitting the form?",
+        "options": ["required", "placeholder", "validate", "mandatory"],
+        "correct": 0
+    },
+    {
+        "id": 100,
+        "question": "Which of the following is a valid CSS flexbox property?",
+        "options": ["flex-direction", "flex-wrap", "align-items", "All of the above"],
+        "correct": 3
+    }
+]

@@ -3,13 +3,18 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align to the top */
+    min-height: 100vh;
 }
 
 .flexible {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: flex-start; /* Align items at the top */
+    width: 100%;
+    padding-top: 20px; /* Optional padding from the top */
 }
 
 .quiz-sec {
@@ -21,10 +26,14 @@ body {
     width: 100%;
 }
 
+.question-container {
+    width: 100%;
+}
+
 .question-container h2 {
     margin-bottom: 10px;
     font-size: 24px;
-    color: #009FB7;
+    color: #CA054D;
 }
 
 .question-container p {
@@ -40,7 +49,7 @@ code {
 }
 
 button {
-    background-color: #009FB7;
+    background-color: #CA054D;
     color: white;
     border: none;
     padding: 10px 20px;

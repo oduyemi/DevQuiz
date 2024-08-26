@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/quiz.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Dev Quiz - Question 1</title>
+</head>
+<body>
+    <main>
+        <section id="quiz-sec" class="flexible quiz-sec animate__animated animate__fadeIn">
+            <div class="question-container">
+                <h2>Question 1</h2>
+                <p>What is the output of the following code?</p>
+                <code>console.log(typeof NaN);</code>
+                <form id="quiz-form">
+                    <input type="radio" name="answer" value="1" id="option1">
+                    <label for="option1">Number</label><br>
+                    <input type="radio" name="answer" value="2" id="option2">
+                    <label for="option2">NaN</label><br>
+                    <input type="radio" name="answer" value="3" id="option3">
+                    <label for="option3">Object</label><br>
+                    <input type="radio" name="answer" value="4" id="option4">
+                    <label for="option4">Undefined</label><br>
+                    <button type="button" onclick="nextQuestion()">Next</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
